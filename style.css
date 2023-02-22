@@ -190,3 +190,29 @@
     color: white;
     border-radius: 5rem;
   }
+
+/* documentation page  */
+.upper h1{
+    font-size: 4rem;
+    color: lightblue;
+    margin-bottom: 2rem;
+}
+.upper p {
+    font-size: 2rem;
+}
+
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec p{
+    max-width: 50%;
+}
+.sec ul li{
+    color: white;
+      list-style: none;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+}
