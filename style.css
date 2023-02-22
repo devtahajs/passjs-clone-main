@@ -142,11 +142,11 @@
   }
 
   .upper h1 {
-      color: white;
+      color: rgb(95, 166, 207);
       text-align: center;
-      margin: 3rem;
+      margin: 1rem;
       font-size: 3rem;
-      font-weight: 600;
+      font-weight: 500;
   }
 
   .upper p {
@@ -192,30 +192,54 @@
   }
 
 /* documentation page  */
-.upper h1{
-    font-size: 4rem;
-    color: lightblue;
-    margin-bottom: 2rem;
-}
+
 .upper p {
     font-size: 2rem;
 }
 
 .sec{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .sec p{
-    max-width: 50%;
+    max-width: 60%;
+    margin-bottom: 3rem;
 }
-.sec ul li{
-    color: white;
+.temp ul li{
+    color: rgb(231, 189, 140);
       list-style: none;
-      font-size: 1rem;
-      font-weight: 500;
-      transition: 0.3s ease-in-out;
+      font-size: 1.5rem;
+      font-weight: 400;
       cursor: pointer;
+      transition: 0.3s ease-in-out;
+      text-align: end;
+}
+.temp ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+   justify-content: end;
+}
+.temp h2 {
+    color: yellow;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    
+}
+.temp p{
+    font-size: 1.5rem;
+    text-align: left;
 }
 
+/* cards */
+.card{
+   
+    min-width: 50rem;
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(28, 80, 224);
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
 
-/* ths */
