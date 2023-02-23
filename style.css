@@ -131,6 +131,9 @@
 
 
   /* content ------------ */
+  /* .main{
+    min-width: 100%;
+  } */
   .upper {
       margin: 5rem;
       text-align: center;
@@ -243,3 +246,35 @@
     border-radius: 1rem;
 }
 
+
+/* sponsar */
+.spop p {
+    max-width: 100%;
+}
+.sponsar img{
+    width: 300px;
+}
+.item{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.item h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sponsar{
+    display: flex;
+    gap: 15px; 
+}
+.item p{
+    color: rgb(119, 119, 240);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.item3 img{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
